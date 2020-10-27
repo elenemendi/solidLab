@@ -10,12 +10,9 @@ public abstract class Symptom {
 	public Symptom(int covidImpact, int severityIndex) {
 		this.covidImpact = covidImpact;
 		this.severityIndex = severityIndex;
-		this.affectedDays = affectedDays;
+		
 	}
 
-	
-	
-	
 	public abstract int getCovidImpact();
 	
 	public abstract void setCovidImpact(int covidImpact);
