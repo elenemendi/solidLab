@@ -19,6 +19,7 @@ public class main {
 		
 		double emaitza = pazientea.calcCovid19Impact();
 		System.out.println("Covid Impact: "+emaitza);
+		
 
 	}
 
