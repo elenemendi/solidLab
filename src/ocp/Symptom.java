@@ -1,4 +1,4 @@
-package OCP;
+package ocp;
 
 public abstract class Symptom {
 	int severityIndex;
