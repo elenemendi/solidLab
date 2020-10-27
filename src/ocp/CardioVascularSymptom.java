@@ -20,4 +20,12 @@ public class CardioVascularSymptom extends Symptom {
 		this.severityIndex = severityIndex;
 	}
 	
+	public int getAffectedDays() {
+		return affectedDays;
+	}
+	
+	public void setAffectedDays(int affectedDays) {
+		this.affectedDays=affectedDays;
+	}
+	
 }

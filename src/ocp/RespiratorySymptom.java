@@ -18,4 +18,12 @@ public class RespiratorySymptom extends Symptom {
 	public void setSeverityIndex(int severityIndex) {
 		this.severityIndex = severityIndex;
 	}
+	
+	public int getAffectedDays() {
+		return affectedDays;
+	}
+	
+	public void setAffectedDays(int affectedDays) {
+		this.affectedDays=affectedDays;
+	}
 }

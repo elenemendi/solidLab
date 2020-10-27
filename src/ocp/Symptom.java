@@ -1,12 +1,16 @@
 package ocp;
 
 public abstract class Symptom {
+
 	int severityIndex;
 	int covidImpact;
+	int affectedDays;
+	
 	
 	public Symptom(int covidImpact, int severityIndex) {
 		this.covidImpact = covidImpact;
 		this.severityIndex = severityIndex;
+		this.affectedDays = affectedDays;
 	}
 
 	
@@ -19,5 +23,11 @@ public abstract class Symptom {
 	public abstract int getSeverityIndex();
 	
 	public abstract void setSeverityIndex(int severityIndex);
+	
+	public abstract int getAffectedDays();
+
+	public abstract void setAffectedDays(int affectedDays);
+	
+
 }
 

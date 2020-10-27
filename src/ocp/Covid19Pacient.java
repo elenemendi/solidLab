@@ -36,4 +36,13 @@ public class Covid19Pacient extends Pacient{
 		return impact;
 	}
 	
+	int sanatedDays() {
+		int max =0;
+		for(Symptom c:symptoms.keySet())
+			if(c.getAffectedDays()>max)
+				max = c.getAffectedDays();
+		
+		return max;
+	}
+	
 }
