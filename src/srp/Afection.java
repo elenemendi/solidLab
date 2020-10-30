@@ -10,11 +10,11 @@ public class Afection {
 			if(s.getCovidImpact()>50) {
 				afection=afection+s.getSeverityIndex()*symptoms.get(s);
 				elems++;
-				}
+			}
 		if(elems!=0)
-		afection=afection/elems;
+			afection=afection/elems;
 		return afection;
-		
+
 	}
-	
+
 }
